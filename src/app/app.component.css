@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+
+
+.azul {
+  background-color: aqua;
+  width: 40%;
+  height: 100vh;
+}
+
+.card-front {
+  background-color: orange;
+  
+  margin: 30px 20px 60px 20px;
+  
+  
+}
+
+.card-back {
+  background-color: gray;
+  margin: 30px 20px 60px 20px;
+  height: 150px;
+}
+
+
+.branco {
+  margin-right: 150px;
+  margin-top: 10%;
+}
+
+.button {
+  border: none;
+  width: 100%;
+  background-color: blue;
+}

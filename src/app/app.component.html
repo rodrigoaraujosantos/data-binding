@@ -3,9 +3,50 @@
 <p>O resultado da soma de 20 + 10 é: {{soma(20, 10)}}</p>
 <input [type]="tipoInput" value="valor inicial">
 <button (click)="mudarTipoDoInput()">Mostrar/esconder</button> -->
+<!-- 
+<input type="number" placeholder="Digite o 1° numero" [(ngModel)]="n1" name="valor1"><br><br>
+<input type="number" placeholder="Digite o 2° numero" [(ngModel)]="n2" name="valor2">
 
-<input type="number" placeholder="Digite o 1° numero"[(ngModel)]="n1" name="valor1"><br><br>
-<input type="number" placeholder="Digite o 2° numero"[(ngModel)]="n2" name="valor2">
 <p>
   {{n1}} + {{n2}} = {{n1 + n2}}
-</p>
+</p> -->
+
+<div class="container">
+  <div class="azul">
+    
+    <div class="card-front">
+      <img src="" alt="logo do cartao">
+      <p>{{nomeCartao}}</p>
+      <p>{{numCartao}}</p>
+      <p>{{mes}}</p>
+      <p>{{ano}}</p>
+    </div>
+
+    <div class="card-back">
+      <p>{{cvc}}</p>
+    </div>
+
+  </div>
+
+  <div class="branco">
+    <label for="nome">Nome do Cartão</label><br>
+    <input type="text" id="nome" [(ngModel)]="nomeCartao"><br>
+
+    <label for="numero-cartao" >Número do Cartão</label><br>
+    <input type="number" id="numero-cartao" [(ngModel)]="numCartao"><br>
+  
+    <label for="mes">Mês</label><br>
+    <input type="number" id="mes" [(ngModel)]="mes"><br>
+
+    <label for="ano">Ano</label><br>
+    <input type="number" id="ano" [(ngModel)]="ano"><br>
+
+    <label for="cvc">CVC</label><br>
+    <input type="number" id="cvc" [(ngModel)]="cvc"><br>
+
+    <button class="button">Confirmar</button>
+
+    
+
+  </div>
+</div>
