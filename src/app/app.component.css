@@ -1,39 +1,25 @@
-.container {
-  display: flex;
-  justify-content: space-between;
-
-}
-
-
-
-.azul {
-  background-color: aqua;
-  width: 40%;
+main.wrapper {
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 30px;
 }
 
-.card-front {
-  background-color: orange;
-  
-  margin: 30px 20px 60px 20px;
-  
-  
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
 }
 
-.card-back {
-  background-color: gray;
-  margin: 30px 20px 60px 20px;
-  height: 150px;
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-
-.branco {
-  margin-right: 150px;
-  margin-top: 10%;
-}
-
-.button {
-  border: none;
-  width: 100%;
-  background-color: blue;
+#confirm {
+  background: linear-gradient(45deg, #023047, #219ebc);
+  color: white;
 }
